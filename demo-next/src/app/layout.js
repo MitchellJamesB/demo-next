@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from './compenents/Navbar'
 import Footer from './compenents/Footer'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
