@@ -19,7 +19,7 @@ export default function Navbar() {
         {navigationButtons.map(({href, title, isNew}) => (
           <>
           <Button href={href} classNameProp = "flex text-xl">
-            {isNew && <Tag classNamesProp = "mr-2 animate-pulse"/>}
+            {isNew && <Tag classNames = "mr-2 animate-pulse"/>}
             {title}
             </Button>
           </>
