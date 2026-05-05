@@ -1,5 +1,5 @@
 "use client"; //This is a client component
-import SimpleGallery from "../compenents/SimpleGallery";
+import SimpleGallery from "../components/SimpleGallery";
 
 const images = [
   {
